@@ -1,0 +1,35 @@
+.slick-arrow {
+    width: 40px;
+    height: 40px;
+}
+
+.slick-prev:before, .slick-next:before {
+    color: black!important;
+    font-size: 40px;
+}
+
+.list-group-item {
+    font-size: 14px;
+    box-shadow: 0px 0px 14px 2px rgba(221, 221, 221, 0.7);
+}
+
+li img {
+    filter: hue-rotate(180deg);
+}
+
+#bestPic {
+    filter: hue-rotate(180deg);
+}
+
+#colorBlurb {
+    background-image: url("https://www.idigic.net/wp-content/uploads/2019/06/why-idigic-instagram-like.jpg");
+    background-size: cover;
+}
+
+#colorBlurb p {
+    width: 66%;
+}
+
+.rating-input {
+    vertical-align: sub;
+}

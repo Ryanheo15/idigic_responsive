@@ -1,0 +1,150 @@
+/* CUSTOM STYLES */
+.gradient {
+    background-image: linear-gradient(to right, #0278ff 0%, #21a9fe 100%);
+}
+
+.gradient:hover {
+    opacity: .7;
+    transition: all .4s ease-in-out;
+}
+
+.font-w-600 {
+    font-weight: 600;
+}
+
+.bg-black {
+    background-color: black;
+}
+
+/* BODY */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Source Sans Pro', Helvetica, Arial, Lucida, sans-serif;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+/* GENERAL */
+.color {
+  color:#0278ff;
+}
+
+/* HEADER */
+#header {
+    color: #555555 !important;
+    font-size: 34px;
+}
+
+/* NAVBAR */
+nav {
+    box-shadow: 0 0 7px rgba(0, 0, 0, .1) !important;
+}
+
+.nav-item {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.active a {
+    border-top: 4px solid #0275d8;
+    color: #0278ff !important;
+}
+
+.nav-link {
+    border-top: 4px solid #ffffff;
+}
+
+.nav-link:hover {
+    border-top: 4px solid #0275d8;
+    color: #21a9fe !important;
+    transition: all .4s ease-in-out;
+}
+
+.nav-item .rounded-pill {
+    vertical-align: -webkit-baseline-middle;
+}
+
+/* MAIN SECTION */
+#beach {
+    height: 400px;
+}
+
+#skateboarder {
+    background-image: url("../resources/skateboarder.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 420px;
+}
+
+.icon {
+    height: 100px;
+    width: 100px;
+}
+
+#bigButton {
+    font-size: 18px;
+
+}
+
+#freeTrial {
+    background-image: url("https://www.idigic.net/wp-content/uploads/2018/11/cta-bg.jpg") !important;
+    filter: hue-rotate(180deg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 100px;
+}
+
+#freeTrial .card {
+    margin-top: 150px;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 0px 12px 18px -6px rgba(0, 0, 0, 0.3);
+    filter: hue-rotate(180deg);
+}
+
+#review {
+    box-shadow: 0px 0px 14px 2px rgba(221, 221, 221, 0.7);
+}
+
+/* CONTACT US */
+.contact-heading {
+  color:#0278ff;
+  font-weight:700;
+}
+
+.bullet {
+  height:35px;
+  width:35px;
+  background-image:linear-gradient(to right, #0278ff 0%, #21a9fe 100%);
+  border-radius:50%;
+  display:inline-block;
+}
+
+.form-color {
+  background-color:#21a9fe;
+  opacity:0.8;
+}
+
+footer {
+  margin-top:220px;
+}
+
+/* FOOTER */
+
+.blockquote-footer b {
+    font-size: 16px;
+}
+
+footer a {
+    color: lightgray;
+}
+
+footer a:hover {
+    color: gray;
+}
