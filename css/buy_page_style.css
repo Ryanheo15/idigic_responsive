@@ -3,8 +3,9 @@
     height: 40px;
 }
 
-.slick-prev:before, .slick-next:before {
-    color: black!important;
+.slick-prev:before,
+.slick-next:before {
+    color: black !important;
     font-size: 40px;
 }
 
@@ -26,10 +27,12 @@ li img {
     background-size: cover;
 }
 
-#colorBlurb p {
-    width: 66%;
-}
-
 .rating-input {
     vertical-align: sub;
+}
+
+@media (min-width: 992px) {
+    #colorBlurb p {
+        width: 66%;
+    }
 }

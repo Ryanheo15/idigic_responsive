@@ -32,7 +32,7 @@ a:hover {
 
 /* GENERAL */
 .color {
-  color:#0278ff;
+    color: #0278ff;
 }
 
 /* HEADER */
@@ -52,16 +52,10 @@ nav {
 }
 
 .active a {
-    border-top: 4px solid #0275d8;
     color: #0278ff !important;
 }
 
-.nav-link {
-    border-top: 4px solid #ffffff;
-}
-
 .nav-link:hover {
-    border-top: 4px solid #0275d8;
     color: #21a9fe !important;
     transition: all .4s ease-in-out;
 }
@@ -90,7 +84,8 @@ nav {
 
 #bigButton {
     font-size: 18px;
-
+    white-space: normal !important;
+    word-wrap: break-word;
 }
 
 #freeTrial {
@@ -102,7 +97,7 @@ nav {
 }
 
 #freeTrial .card {
-    margin-top: 150px;
+    margin-top: 50px;
     border-radius: 15px 15px 15px 15px;
     box-shadow: 0px 12px 18px -6px rgba(0, 0, 0, 0.3);
     filter: hue-rotate(180deg);
@@ -114,29 +109,24 @@ nav {
 
 /* CONTACT US */
 .contact-heading {
-  color:#0278ff;
-  font-weight:700;
+    color: #0278ff;
+    font-weight: 700;
 }
 
 .bullet {
-  height:35px;
-  width:35px;
-  background-image:linear-gradient(to right, #0278ff 0%, #21a9fe 100%);
-  border-radius:50%;
-  display:inline-block;
+    height: 35px;
+    width: 35px;
+    background-image: linear-gradient(to right, #0278ff 0%, #21a9fe 100%);
+    border-radius: 50%;
+    display: inline-block;
 }
 
 .form-color {
-  background-color:#21a9fe;
-  opacity:0.8;
-}
-
-footer {
-  margin-top:220px;
+    background-color: #21a9fe;
+    opacity: 0.8;
 }
 
 /* FOOTER */
-
 .blockquote-footer b {
     font-size: 16px;
 }
@@ -147,4 +137,32 @@ footer a {
 
 footer a:hover {
     color: gray;
+}
+
+@media (min-width: 576px) {
+    #freeTrial .card {
+        margin-top: 150px;
+        width: 50%;
+    }
+
+    footer {
+        margin-top: 150px;
+    }
+}
+
+@media (min-width: 992px) {
+    .active a {
+        border-top: 4px solid #0275d8;
+        color: #0278ff !important;
+    }
+
+    .nav-link {
+        border-top: 4px solid #ffffff;
+    }
+
+    .nav-link:hover {
+        border-top: 4px solid #0275d8;
+        color: #21a9fe !important;
+        transition: all .4s ease-in-out;
+    }
 }
